@@ -124,7 +124,7 @@ if (signinForm) {
         let emailError = document.getElementById("signinEmailError");
         let passwordError = document.getElementById("signinPasswordError");
 
-        // 🔥 Clear previous errors FIRST
+        // Clear previous errors FIRST
         emailError.innerText = "";
         passwordError.innerText = "";
         emailInput.classList.remove("is-invalid", "is-valid");
