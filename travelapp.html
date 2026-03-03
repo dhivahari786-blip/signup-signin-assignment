@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Explorer - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Travel Explorer</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#destinations">Destinations</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#booking">Book Tickets</a>
+                </li>
+
+                <li class="nav-item">
+                    <button class="btn btn-danger ms-3" onclick="logout()">Logout</button>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+    </header>
+<!-- Hero Section -->
+<section class="hero-section text-white text-center d-flex align-items-center justify-content-center">
+    <div>
+        <h1 class="display-4 fw-bold">Discover The World With Us</h1>
+        <p class="lead">Adventure awaits. Explore breathtaking destinations today.</p>
+        <a href="#booking" class="btn btn-light btn-lg mt-3">Book Now</a>
+    </div>
+</section>
+    <!-- Main Content -->
+    <main class="container my-5">
+
+        <section class="text-center mb-5">
+            <h2>Explore Beautiful Destinations</h2>
+            <p>Discover amazing places around the world with us.</p>
+        </section>
+<!-- About Section -->
+<section id="about" class="my-5 pt-5">
+    <div class="text-center mb-4">
+        <h2>About Travel Explorer</h2>
+        <p class="lead">We provide unforgettable travel experiences across the globe.</p>
+    </div>
+
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <img src="Images/pic4.jpg" class="img-fluid rounded shadow" alt="About Travel">
+        </div>
+        <div class="col-md-6">
+            <p>
+                Travel Explorer is dedicated to helping you discover amazing destinations.
+                From relaxing beaches to adventurous mountains, we make your journey memorable.
+                At WanderBeyond, we believe travel is more than just visiting new places —
+                it’s about creating stories you’ll cherish forever. Our passion lies in connecting 
+                curious souls with authentic experiences, hidden gems, and unforgettable adventures 
+                across the globe. From serene beaches to bustling city streets, we curate journeys 
+                that blend comfort, culture, and a touch of the unexpected. Whether you’re a solo 
+                explorer, a couple seeking romance, or a family chasing memories, we’re here to turn 
+                your travel dreams into reality — one destination at a time.
+            </p>
+            <p>
+                Our expert travel planners ensure comfort, safety, and affordability.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="row g-4">
+
+            <!-- Card 1 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <article class="card shadow">
+                    <img src="Images/pic1.jpg" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Beach Paradise</h5>
+                        <p class="card-text">Enjoy crystal clear waters and golden sand beaches.</p>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <article class="card shadow">
+                    <img src="Images/pic2.jpg" class="card-img-top" alt="Destination 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Mountain Escape</h5>
+                        <p class="card-text">Experience peace and adventure in the mountains.</p>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-lg-4 col-md-12 col-12">
+                <article class="card shadow">
+                    <img src="Images/pic3.jpg" class="card-img-top" alt="Destination 3">
+                    <div class="card-body">
+                        <h5 class="card-title">City Adventures</h5>
+                        <p class="card-text">Explore vibrant city life, language, enjoyment and culture.</p>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+<!-- Destinations Section -->
+<section id="destinations" class="my-5 pt-5">
+    <div class="text-center mb-4">
+        <h2>Popular Destinations</h2>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="Images/pic5.jpg" class="card-img-top" alt="Paris">
+                <div class="card-body text-center">
+                    <h5>Paris</h5>
+                    <p>City of lights and romance.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="Images/pic6.jpg" class="card-img-top" alt="Dubai">
+                <div class="card-body text-center">
+                    <h5>Dubai</h5>
+                    <p>Luxury and modern architecture.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="Images/pic7.jpg" class="card-img-top" alt="Maldives">
+                <div class="card-body text-center">
+                    <h5>Maldives</h5>
+                    <p>Crystal clear water paradise.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>  
+<!-- Testimonials Section -->
+<section id="testimonials" class="my-5 bg-light p-5 rounded pt-5">
+    <div class="text-center mb-4">
+        <h2>What Our Customers Say</h2>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <p>"Amazing experience! Everything was perfectly arranged."</p>
+                <h6 class="text-end">– Priya S.</h6>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <p>"Best travel service I have ever used. Highly recommended!"</p>
+                <h6 class="text-end">– Arjun K.</h6>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <p>"Affordable packages and excellent customer support."</p>
+                <h6 class="text-end">– Meena R.</h6>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Book Ticket Section -->
+<section id="booking" class="my-5 pt-5">
+    <div class="text-center mb-4">
+        <h2>Book Your Trip</h2>
+    </div>
+
+    <form id="bookingForm" class="row g-3 justify-content-center">
+        <div class="col-md-4">
+            <input type="text" class="form-control" placeholder="Destination" required>
+        </div>
+
+        <div class="col-md-3">
+            <input type="date" class="form-control" required>
+        </div>
+
+        <div class="col-md-3">
+            <input type="number" class="form-control" placeholder="Number of Travelers" required>
+        </div>
+
+        <div class="col-md-2 d-grid">
+            <button type="submit" class="btn btn-primary">Book Now</button>
+        </div>
+    </form>
+</section>
+
+
+        <!-- Logout Button -->
+        <div class="text-center mt-5">
+            <button class="btn btn-danger" onclick="logout()">Logout</button>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center p-3 bg-dark text-white mt-5">
+        <p>&copy; 2026 Travel Explorer. All Rights Reserved.</p>
+    </footer>
+
+<!-- Booking Success Modal -->
+<div class="modal fade" id="bookingModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center p-4">
+      <h4 class="text-success">Booking Successful!</h4>
+      <p>Your trip has been booked successfully. We will contact you soon.</p>
+      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+        Close
+      </button>
+    </div>
+  </div>
+</div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- External JS -->
+    <script src="js/index.js"></script>
+
+</body>
+</html>
